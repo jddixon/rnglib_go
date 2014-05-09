@@ -1,4 +1,8 @@
-xlattice_go/rnglib/TODO
+rnglib_go/TODO
+
+2014-05-09
+    * review, update doc/index.md
+    * add gh-pages/rnglib_go
 
 2014-02-27
     * according to the docs, NextFileName may contain '.'; there
