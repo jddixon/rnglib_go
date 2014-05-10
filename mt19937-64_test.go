@@ -1,4 +1,4 @@
-package rnglib
+package rnglib_go
 
 // This is the original Hiroshima test hacked into Go -- and so
 // doesn't actually do any useful unit tests.

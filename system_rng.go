@@ -1,6 +1,4 @@
-package rnglib
-
-// xlattice_go/rnglib/system_rng.go
+package rnglib_go
 
 import (
 	"bufio"

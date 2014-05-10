@@ -1,4 +1,4 @@
-package rnglib
+package rnglib_go
 
 // XXX It seems to be an undocumented feature of Go that functions in files
 // names like *_test.go are visible to go test when run the same directory

@@ -1,5 +1,4 @@
-// xlattice_go/prng.go
-package rnglib
+package rnglib_go
 
 import (
 	xf "github.com/jddixon/xlattice_go/util/lfs"

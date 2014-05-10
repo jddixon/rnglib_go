@@ -1,4 +1,4 @@
-package rnglib
+package rnglib_go
 
 import (
 	"fmt"

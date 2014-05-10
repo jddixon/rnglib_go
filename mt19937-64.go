@@ -1,6 +1,6 @@
 // mt19937-64 with license removed for brevity
 
-package rnglib
+package rnglib_go
 
 const NN int = 312
 const MM int = 156

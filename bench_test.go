@@ -1,4 +1,6 @@
-package rnglib
+package rnglib_go
+
+// to run, type "go test .bench ." remembering the dot
 
 import (
 	"math/rand"

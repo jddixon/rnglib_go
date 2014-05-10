@@ -1,5 +1,9 @@
 rnglib_go/TODO
 
+2014-05-10
+    * eliminate dependencies on xlattice_go/util/lfs in prng.go,
+        prng_test.go
+
 2014-05-09
     * review, update doc/index.md
     * add gh-pages/rnglib_go
@@ -10,8 +14,8 @@ rnglib_go/TODO
         sequences of dots such as .. should be forbidden 
 
 2014-01-02
-    * add NextPosixPath() for upax_go
-    * add NextEmailAddress() for upax_go; need not be complicated
+    * add NextPosixPath() for upax_go                                   * DONE
+    * add NextEmailAddress() for upax_go; need not be complicated       * DONE
 
 2013-12-09
     * why does NewSystemRNG() have a salt parameter which is not used??
