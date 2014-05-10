@@ -1,7 +1,7 @@
 package rnglib_go
 
 import (
-	xf "github.com/jddixon/xlattice_go/util/lfs"
+	xf "github.com/jddixon/xlUtil_go/lfs"
 	"math/rand"
 	"os"
 	"strings"

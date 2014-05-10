@@ -1,8 +1,8 @@
 rnglib_go/TODO
 
 2014-05-10
-    * eliminate dependencies on xlattice_go/util/lfs in prng.go,
-        prng_test.go
+    * eliminate dependencies on xlattice_go/util/lfs in prng.go,        * DONE
+        prng_test.go                                                    * DONE
 
 2014-05-09
     * review, update doc/index.md

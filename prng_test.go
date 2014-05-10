@@ -2,7 +2,7 @@ package rnglib_go
 
 import (
 	"fmt"
-	xf "github.com/jddixon/xlattice_go/util/lfs"
+	xf "github.com/jddixon/xlUtil_go/lfs"
 	. "gopkg.in/check.v1"
 	"os"
 	"strings"
