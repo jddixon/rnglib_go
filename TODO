@@ -1,5 +1,11 @@
 rnglib_go/TODO
 
+2014-06-30
+    * add SomeBytes(N) which returns a slice of that many random bytes  * DONE
+    * add testing for SomeBytes(N)
+    * do something to make NextBytes() much more efficient
+        - so add some benchmarks
+
 2014-05-10
     * eliminate dependencies on xlattice_go/util/lfs in prng.go,        * DONE
         prng_test.go                                                    * DONE

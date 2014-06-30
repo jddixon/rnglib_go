@@ -1,5 +1,8 @@
 rnglib_go/CHANGES
 
+v0.5.1
+    2041-06-30
+        added SomeBytes(N)                                          SLOC  605
 v0.5.0
 	2014-05-10
         split off from xlattice_go                                  SLOC  600

@@ -51,6 +51,12 @@ func (p *PRNG) NextBytes(buffer []byte) {
 		buffer[n] = p.NextByte()
 	}
 }
+// Allocate a slice of N bytes, fill with random values, return.
+func (p *PRNG) SomeBytes(n uint) []byte {
+	b := make([]byte, n)
+	p.NextBytes(b)
+	return b
+}
 func (p *PRNG) NextInt32(n uint32) uint32 { return uint32(float32(n) * p.rng.Float32()) }
 func (p *PRNG) NextInt64(n uint64) uint64 { return uint64(float64(n) * p.rng.Float64()) }
 func (p *PRNG) NextFloat32() float32      { return p.rng.Float32() }

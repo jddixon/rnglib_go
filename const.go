@@ -5,6 +5,6 @@ package rnglib_go
 // into a uint32 in in_handler.go init()
 const (
 	// the version number tracked in CHANGES
-	VERSION      = "0.5.0"
-	VERSION_DATE = "2014-05-10"
+	VERSION      = "0.5.1"
+	VERSION_DATE = "2014-06-30"
 )
