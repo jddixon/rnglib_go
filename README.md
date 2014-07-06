@@ -71,3 +71,7 @@ will be that many files in each directory and subdirectory created
 (where is file is either a data file or a directory).  Depth and
 width must both be at least 1.  maxLen and minLen are used as in
 nextDataFile(). 
+
+## On-line Documentation
+
+More information on the **rnglib_go** project can be found [here](https://jddixon.github.io/rnglib_go)
