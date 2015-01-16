@@ -1,4 +1,4 @@
-# rnglib_go
+<h1 class="libTop">rnglib_go</h1>
 
 A Go random number generator especially useful for generating 
 quasi-random strings, files, and directories.

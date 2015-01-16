@@ -1,4 +1,5 @@
-# rnglib_go
+rnglib_go
+=========
 
 A Go random number generator especially useful for generating 
 quasi-random strings, files, and directories.
@@ -71,5 +72,5 @@ will be that many files in each directory and subdirectory created
 `nextDataFile()`.
 
 ## On-line Documentation
-
-More information on the **rnglib_go** project can be found [here](https://jddixon.github.io/rnglib_go)
+More information on the **rnglib_go** project can be found 
+[here](https://jddixon.github.io/rnglib_go)
