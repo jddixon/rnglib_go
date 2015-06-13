@@ -1,0 +1,3 @@
+pySloc -v -X tmp \
+    bash:countem \
+    $@
