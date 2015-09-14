@@ -12,21 +12,24 @@
 <h1 class="libTop">rnglib_go</h1>
 
 <p>A Go random number generator especially useful for generating
-quasi-random strings, files, and directories.</p>
+quasi-random strings, data files, and directory trees containing
+random numbers of data files with random names and random content.</p>
+
+<h2>Classes</h2>
 
 <p>This package contains two classes, <strong>SimpleRNG</strong> and <strong>SystemRNG</strong>.
-Both of these subclass Go&rsquo;s rand package and so rand&rsquo;s functions
+Both of these subclass Go&rsquo;s <code>rand</code> package and so <code>rand</code>&rsquo;s functions
 can be called through either of rnglib&rsquo;s two subclasses using
 exactly the same syntax.</p>
 
-<p><strong>SimpleRNG</strong> is the faster of the two.  It uses the Mersenne
+<p><code>SimpleRNG</code> is the faster of the two.  It uses the Mersenne
 Twister and so is completely predictable with a very long period.
 It is suitable where speed and predictability are both important.
 You can be certain that if you provide the same seed, then
 the sequence of numbers generated will be exactly the same.  This is
 often important for debugging.</p>
 
-<p><strong>SimpleRNG</strong> is also very fast.  It is approximately 30% faster
+<p><code>SimpleRNG</code> is also very fast.  It is approximately 30% faster
 than Go&rsquo;s rand package in our tests.</p>
 
 <p>Although the Mersenne Twister is absolutely predictable, it also has
@@ -36,17 +39,19 @@ and <a href="http://www.phy.duke.edu/~rgb/General/dieharder.php">Dieharder</a> r
 the Mersenned Twister very highly.  The Twister is quite widely used
 (for example, in the Python libraries) because of this.</p>
 
-<p><strong>SystemRNG</strong> is a secure random number generator, meaning that it is
+<p><code>SystemRNG</code> is a secure random number generator, meaning that it is
 extremely difficult or impossible to predict the next number
-generated in a sequence.  It is based on the system&rsquo;s /dev/urandom.
+generated in a sequence.  It is based on the system&rsquo;s <code>/dev/urandom</code>.
 This relies upon entropy accumulated by the system; when
 this is insufficient it will revert to using a very secure
-programmable random number generator.  SystemRNG is about 35x
-slower than SimpleRNG in our test runs.</p>
+programmable random number generator.  <code>SystemRNG</code> is about 35x
+slower than <code>SimpleRNG</code> in our test runs.</p>
 
-<p>For normal use in testing, SimpleRNG is preferred.  When there is
+<p>For normal use in testing, <code>SimpleRNG</code> is preferred.  When there is
 a requirement for greater security, as in the generation of passwords
-and cryptographic keys with reasonable strength, SystemRNG is recommended.</p>
+and cryptographic keys with reasonable strength, <code>SystemRNG</code> is recommended.</p>
+
+<h2>Functions</h2>
 
 <p>In addition to the functions available from Go&rsquo;s random package,
 rnglib also provides</p>
@@ -81,6 +86,18 @@ will be that many files in each directory and subdirectory created
 (where a file is either a data file or a directory). <code>depth</code> and
 <code>width</code> must both be at least 1.  <code>maxLen</code> and <code>minLen</code> are used as in
 <code>nextDataFile()</code>.</p>
+
+<h2>History</h2>
+
+<p>A Java version of <code>rnglib</code> was originally implemented as part of the<br />
+<a href="http://www.xlattice.org">XLattice</a>
+project.  A Python implementation also exists: click
+<a href="https://jddixon.github.io/rnglib">here</a>
+for further information`.</p>
+
+<h2>Project Status</h2>
+
+<p>Stable.  All tests succeed, performance is good.</p>
 
 <h2>Licensing</h2>
 <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The material on this github.io website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
