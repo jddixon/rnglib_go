@@ -1,21 +1,24 @@
 <h1 class="libTop">rnglib_go</h1>
 
 A Go random number generator especially useful for generating 
-quasi-random strings, files, and directories.
+quasi-random strings, data files, and directory trees containing
+random numbers of data files with random names and random content.
+
+## Classes
 
 This package contains two classes, **SimpleRNG** and **SystemRNG**.
-Both of these subclass Go's rand package and so rand's functions 
+Both of these subclass Go's `rand` package and so `rand`'s functions 
 can be called through either of rnglib's two subclasses using 
 exactly the same syntax.
 
-**SimpleRNG** is the faster of the two.  It uses the Mersenne
+`SimpleRNG` is the faster of the two.  It uses the Mersenne
 Twister and so is completely predictable with a very long period.
 It is suitable where speed and predictability are both important.
 You can be certain that if you provide the same seed, then
 the sequence of numbers generated will be exactly the same.  This is
 often important for debugging.  
 
-**SimpleRNG** is also very fast.  It is approximately 30% faster 
+`SimpleRNG` is also very fast.  It is approximately 30% faster 
 than Go's rand package in our tests.
 
 Although the Mersenne Twister is absolutely predictable, it also has 
@@ -25,31 +28,33 @@ and [Dieharder](http://www.phy.duke.edu/~rgb/General/dieharder.php) rank
 the Mersenned Twister very highly.  The Twister is quite widely used 
 (for example, in the Python libraries) because of this.
 
-**SystemRNG** is a secure random number generator, meaning that it is
+`SystemRNG` is a secure random number generator, meaning that it is
 extremely difficult or impossible to predict the next number 
-generated in a sequence.  It is based on the system's /dev/urandom.
+generated in a sequence.  It is based on the system's `/dev/urandom`.
 This relies upon entropy accumulated by the system; when 
 this is insufficient it will revert to using a very secure 
-programmable random number generator.  SystemRNG is about 35x
-slower than SimpleRNG in our test runs.
+programmable random number generator.  `SystemRNG` is about 35x
+slower than `SimpleRNG` in our test runs.
 
-For normal use in testing, SimpleRNG is preferred.  When there is
+For normal use in testing, `SimpleRNG` is preferred.  When there is
 a requirement for greater security, as in the generation of passwords 
-and cryptographic keys with reasonable strength, SystemRNG is recommended.  
+and cryptographic keys with reasonable strength, `SystemRNG` is recommended.  
+
+## Functions
 
 In addition to the functions available from Go's random package,
 rnglib also provides
 
-    NextBoolean()
-    NextByte(max=256)
-    NextBytes(buffer)
-    NextInt32(n uint32)
-    NextInt64(n uint64)
-    NextFloat32()
-    NextFloat64()
-    NextFileName(maxLen int)
-    NextDataFile(dirName string, maxLen, minLen int)
-    NextDataDir(pathToDir string, depth, width, maxLen, minLen int)
+	NextBoolean()
+	NextByte(max=256)
+	NextBytes(buffer)
+	NextInt32(n uint32)
+	NextInt64(n uint64)
+	NextFloat32()
+	NextFloat64()
+	NextFileName(maxLen int)
+	NextDataFile(dirName string, maxLen, minLen int)
+	NextDataDir(pathToDir string, depth, width, maxLen, minLen int)
 
 Given a buffer of arbitrary length, nextBytes() will fill it with random
 bytes.
@@ -69,3 +74,16 @@ will be that many files in each directory and subdirectory created
 (where a file is either a data file or a directory). `depth` and
 `width` must both be at least 1.  `maxLen` and `minLen` are used as in
 `nextDataFile()`.
+
+## History
+
+A Java version of `rnglib` was originally implemented as part of the  
+[XLattice](http://www.xlattice.org) 
+project.  A Python implementation also exists: click 
+[here](https://jddixon.github.io/rnglib)
+for further information`.
+
+## Project Status
+
+Stable.  All tests succeed, performance is good.
+
