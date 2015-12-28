@@ -90,4 +90,4 @@ Stable.  All tests succeed, performance is good.
 ## On-line Documentation
 
 More information on the **rnglib_go** project can be found
-[here](://jddixon.github.io/rnglib_go)
+[here](https://jddixon.github.io/rnglib_go)
