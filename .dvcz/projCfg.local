@@ -1,0 +1,7 @@
+
+# rnglib_go/.dvcz/projCfg.local
+
+dir:clr:tmp
+
+# XXX eLang 'dat' not yet supported
+bin:ign:mt19937-64.out.orig

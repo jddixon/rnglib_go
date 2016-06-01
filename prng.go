@@ -51,6 +51,7 @@ func (p *PRNG) NextBytes(buffer []byte) {
 		buffer[n] = p.NextByte()
 	}
 }
+
 // Allocate a slice of N bytes, fill with random values, return.
 func (p *PRNG) SomeBytes(n uint) []byte {
 	b := make([]byte, n)
