@@ -1,6 +1,6 @@
 package rnglib_go
 
 const (
-	VERSION      = "0.5.6"
-	VERSION_DATE = "2016-02-25"
+	VERSION      = "0.5.7"
+	VERSION_DATE = "2016-06-01"
 )
