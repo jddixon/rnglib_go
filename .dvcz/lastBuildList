@@ -1,0 +1,63 @@
+-----BEGIN RSA PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoM2sBgX0ChP2JriXkOxS
+e2FjHYVzBGkNvgf0vIAa7FFYZi2pWmxBAVXgl3tTiB3quqqud/MbKqdejM6gkKBK
+v8f7hlcBQLD6BLIZ/RRfhIElc+WlDVfKSnBTB4va5qTQAgvuq5i8+oMj7G8WEy5d
+7cYucWyUJMtHvT4pCDtBWeeqQ62tByWjv34Ud/+A9Mjf0leiWxM3tiToVsqIKb4s
+zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
+H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
+GQIDAQAB
+-----END RSA PUBLIC KEY-----
+rnglib_go v0.5.8
+2016-06-28 16:00:18
+# START CONTENT #
+rnglib_go
+ .copyright da5046f3d0695c0b841b17b172db883917846836
+ .dvcz
+  builds 104ba783905e786889aaee2333530d4f6fda549a
+  lastBuildList 8e653402ae484d14acd428950a66956f14bb0af6
+  projCfg 5d6ee4f206028145f84ca66e4057eb866ed19ffd
+  projCfg.local 7b23163e19b73bd6a6826fc110bcbecd612db9c4
+  version aa43a4f1f6d5a7a1a3dee9b8adac1ea046eb54ed
+ .gitignore ec0f9002629753cd248c6a672ef3de695c30f4b7
+ CHANGES f4c62eeb29612371bda663189cbe16638cf6a2cb
+ LICENSE.MT19937-64.txt ebb05362edeaa262923bc6c804ffed7532f953d5
+ LICENSE.md 42de349b4de7129392b3961ece4de861f00c0f6a
+ README.md cdff4b04d6cc6e5f827fb6c3bfd6e3d87c8fb06d
+ README.mt fb0eba2cb63704f8194d011a2bdaf5ce40d39d86
+ TODO 11152d5c1077109c335e6e60ba01e836bbef4e14
+ bench_test.go ad36acc0f9946a4d7747212c80e9005dfba64380
+ bkp2U 7e7ae7dcf0b6e217a391dea91af82d1946392084
+ countem 745c6784c460bf3557004548d8e22fcde4f1470e
+ ghpDoc
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
+  index.md 248a16b44f64dc7100e8af2ed69cd2636197d083
+ installit 898d6d40f899372361ccfb3a57b374eb134dde2b
+ make_rng.go d80832d72bce25fb5efb56c896fc7e53cd0fd983
+ mt19937-64.go f52d8003d97c0ef57eb9ea436653d2dc46c7612b
+ mt19937-64.out.orig 2840aeb56d4237b21d66f0da574c3a1fcd0e9db6
+ mt19937-64_test.go ac8b081be7dc250e1469144ea1383081f2d8af53
+ prng.go 2fb633bd4f872e0f7c0a22e1589a1212b83f01a5
+ prng_test.go edd0e4d1fe2431c2dd126dc4c1f0f659d99be7b4
+ rnglib.go fb145e8db810bdc2b7fdd6655e55034f69e335c8
+ simple_rng.go 41d8942b0a394b72fa2cf412d4def45b9ed5e2ca
+ simple_rng_test.go b25486db114d3d8d87eaf0b4170baee173871c37
+ styleit e6ee695c2110aef1391e2435dd7994b9de72b73d
+ system_rng.go 24f1498c0f0c219924b71277a6b6b4d4a9df51b1
+ system_rng_test.go 617dfc8b2bcb6463f0efe5b76c0a67fb83822854
+ test.all d729e182fa7372b3bb016c19542c38b944be08e9
+ version.go ec46403e0ad1374bd76df9d287600c0602b6c8ec
+# END CONTENT #
+
+WiZWeyVZIAst+7q+hLGnAOTQ+Z2jF9ZbPQ3szec081ds2iQOq8hLPlZ6cFcLWSyM7/oQyR1o+yQIuHty0a521URyd2A3qEia6dxbuD7mnCWW3fRxeBAv7zdd2VCZzIAun6axnUNcCeu2vnIy2x/W5wnY7lsK99hGEDk30jKhG8ewcwuPP/OV5aPFJH3DAtHtK2HhG8YCs+FDleGsBoQA+GxEIPLvcmxFJbgxEyaIYIU6or53p0GhusJpZ89g2xdw3SDirytr0kz2Ax4smv5GDJtkFarSIG9tT7lesqxPOSuzmri2V1d//lhBzt7xqP9ieXpwRi5RLLbX5jC1ZLYWsg==

@@ -1,5 +1,8 @@
 rnglib_go/CHANGES
 
+v0.5.8
+    2016-06-28
+        * add ghpDoc/{css,img}                                      SLOC 1605
 v0.5.7
     2016-06-01
         * add bkp2U, other bash scripts                             SLOC 1107
@@ -24,6 +27,7 @@ v0.5.1
 v0.5.0
 	2014-05-10
         * split off from xlattice_go                                SLOC  600
+
 
 
 
